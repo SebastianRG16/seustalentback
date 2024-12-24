@@ -6,6 +6,11 @@ Instalar dependencias: npm install
 
 Correr el proyecto: npm run dev
 
+# CRAEAR DB POSTGRES
+
+Se trabajo con base de datos en postgres en el archivo config/config.json esta la conexion y las variables a tener en cuenta para esta db.
+
+En el proyecto la db de llama: SEUSTALENT
 
 # REALIZAR MIGRACIONES SEQULIZE
 
@@ -24,6 +29,6 @@ en la ruta: http://localhost:3000/users crear un nuevo usuario
 JSON para crear usuario:
 
 {
-  "username" : "username",
-  "password" : "password"
+"username" : "username",
+"password" : "password"
 }
