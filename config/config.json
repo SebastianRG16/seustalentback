@@ -18,7 +18,13 @@
       "password": "0dHAC2YTox3CwDd7wLGsu6CFxJlrr67Q",
       "database": "prtecnica",
       "host": "dpg-ctmkslpopnds73fg467g-a.oregon-postgres.render.com",
-      "dialect": "postgres"
+      "dialect": "postgres",
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      }
     }
 }
   
