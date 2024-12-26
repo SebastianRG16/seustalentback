@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://seustalentfront.onrender.com/",
+    origin: "https://seustalentfront.onrender.com",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
