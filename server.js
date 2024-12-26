@@ -25,7 +25,7 @@ app.use("/generalinformation", generalinformation);
 app.use("/academicformation", academicformation);
 app.use("/workexperience", workexperience);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, async () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
