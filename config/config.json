@@ -1,23 +1,23 @@
 {
     "development": {
-      "username": "postgres",
-      "password": "1234",
-      "database": "SEUSTALENT",
-      "host": "localhost",
+      "username": "prtecnica_user",
+      "password": "0dHAC2YTox3CwDd7wLGsu6CFxJlrr67Q",
+      "database": "prtecnica",
+      "host": "dpg-ctmkslpopnds73fg467g-a.oregon-postgres.render.com",
       "dialect": "postgres"
     },
     "test": {
-      "username": "postgres",
-      "password": "1234",
-      "database": "SEUSTALENT",
-      "host": "localhost",
+      "username": "prtecnica_user",
+      "password": "0dHAC2YTox3CwDd7wLGsu6CFxJlrr67Q",
+      "database": "prtecnica",
+      "host": "dpg-ctmkslpopnds73fg467g-a.oregon-postgres.render.com",
       "dialect": "postgres"
     },
     "production": {
-      "username": "postgres",
-      "password": "1234",
-      "database": "SEUSTALENT",
-      "host": "localhost",
+      "username": "prtecnica_user",
+      "password": "0dHAC2YTox3CwDd7wLGsu6CFxJlrr67Q",
+      "database": "prtecnica",
+      "host": "dpg-ctmkslpopnds73fg467g-a.oregon-postgres.render.com",
       "dialect": "postgres"
     }
 }
